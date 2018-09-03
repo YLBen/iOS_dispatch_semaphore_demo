@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B7FE4022AEB61FCC9F8FD29 /* libPods-信号量.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6917F0A8A2C83C7AAC18D /* libPods-信号量.a */; };
 		C07734E2213D62A8007CA333 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C07734E1213D62A8007CA333 /* AppDelegate.m */; };
 		C07734E5213D62A8007CA333 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07734E4213D62A8007CA333 /* ViewController.m */; };
 		C07734E8213D62A8007CA333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07734E6213D62A8007CA333 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		C07734F0213D62AB007CA333 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C07734EF213D62AB007CA333 /* main.m */; };
 		C07734FA213D62AB007CA333 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C07734F9213D62AB007CA333 /* ___Tests.m */; };
 		C0773505213D62AB007CA333 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0773504213D62AB007CA333 /* ___UITests.m */; };
+		C0773515213D63A2007CA333 /* ATBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C0773514213D63A2007CA333 /* ATBaseRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F0B9D5C23CBDEC94817459A /* Pods-信号量.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-信号量.debug.xcconfig"; path = "Pods/Target Support Files/Pods-信号量/Pods-信号量.debug.xcconfig"; sourceTree = "<group>"; };
+		65E6917F0A8A2C83C7AAC18D /* libPods-信号量.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-信号量.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07734DD213D62A8007CA333 /* 信号量.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "信号量.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07734E0213D62A8007CA333 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C07734E1213D62A8007CA333 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,11 +50,14 @@
 		C07734EE213D62AB007CA333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C07734EF213D62AB007CA333 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C07734F5213D62AB007CA333 /* 信号量Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "信号量Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C07734F9213D62AB007CA333 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		C07734F9213D62AB007CA333 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ___Tests.m; sourceTree = "<group>"; };
 		C07734FB213D62AB007CA333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0773500213D62AB007CA333 /* 信号量UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "信号量UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0773504213D62AB007CA333 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
+		C0773504213D62AB007CA333 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ___UITests.m; sourceTree = "<group>"; };
 		C0773506213D62AB007CA333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0773513213D63A2007CA333 /* ATBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBaseRequest.h; sourceTree = "<group>"; };
+		C0773514213D63A2007CA333 /* ATBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATBaseRequest.m; sourceTree = "<group>"; };
+		D897F0712EB55B3813352B86 /* Pods-信号量.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-信号量.release.xcconfig"; path = "Pods/Target Support Files/Pods-信号量/Pods-信号量.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7FE4022AEB61FCC9F8FD29 /* libPods-信号量.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87FEA557C38D8D56772E7CA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65E6917F0A8A2C83C7AAC18D /* libPods-信号量.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B692C1579953BB0167F144A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F0B9D5C23CBDEC94817459A /* Pods-信号量.debug.xcconfig */,
+				D897F0712EB55B3813352B86 /* Pods-信号量.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C07734D4213D62A8007CA333 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				C07734F8213D62AB007CA333 /* 信号量Tests */,
 				C0773503213D62AB007CA333 /* 信号量UITests */,
 				C07734DE213D62A8007CA333 /* Products */,
+				B692C1579953BB0167F144A9 /* Pods */,
+				87FEA557C38D8D56772E7CA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +128,7 @@
 		C07734DF213D62A8007CA333 /* 信号量 */ = {
 			isa = PBXGroup;
 			children = (
+				C0773512213D636B007CA333 /* Network */,
 				C07734E0213D62A8007CA333 /* AppDelegate.h */,
 				C07734E1213D62A8007CA333 /* AppDelegate.m */,
 				C07734E3213D62A8007CA333 /* ViewController.h */,
@@ -132,6 +160,15 @@
 			path = "信号量UITests";
 			sourceTree = "<group>";
 		};
+		C0773512213D636B007CA333 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C0773513213D63A2007CA333 /* ATBaseRequest.h */,
+				C0773514213D63A2007CA333 /* ATBaseRequest.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0773509213D62AB007CA333 /* Build configuration list for PBXNativeTarget "信号量" */;
 			buildPhases = (
+				B65BB652FE34DC08C0F4FD81 /* [CP] Check Pods Manifest.lock */,
 				C07734D9213D62A8007CA333 /* Sources */,
 				C07734DA213D62A8007CA333 /* Frameworks */,
 				C07734DB213D62A8007CA333 /* Resources */,
@@ -257,6 +295,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B65BB652FE34DC08C0F4FD81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-信号量-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C07734D9213D62A8007CA333 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +324,7 @@
 				C07734E5213D62A8007CA333 /* ViewController.m in Sources */,
 				C07734F0213D62AB007CA333 /* main.m in Sources */,
 				C07734E2213D62A8007CA333 /* AppDelegate.m in Sources */,
+				C0773515213D63A2007CA333 /* ATBaseRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,15 +491,13 @@
 		};
 		C077350A213D62AB007CA333 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0B9D5C23CBDEC94817459A /* Pods-信号量.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48MLC22ZU3;
 				INFOPLIST_FILE = "信号量/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.avatar.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,15 +506,13 @@
 		};
 		C077350B213D62AB007CA333 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D897F0712EB55B3813352B86 /* Pods-信号量.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48MLC22ZU3;
 				INFOPLIST_FILE = "信号量/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.avatar.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,11 +526,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48MLC22ZU3;
 				INFOPLIST_FILE = "信号量Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.avatar.---Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -489,11 +541,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48MLC22ZU3;
 				INFOPLIST_FILE = "信号量Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.avatar.---Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -507,11 +555,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48MLC22ZU3;
 				INFOPLIST_FILE = "信号量UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.avatar.---UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -525,11 +569,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48MLC22ZU3;
 				INFOPLIST_FILE = "信号量UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.avatar.---UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
